@@ -1,0 +1,21 @@
+{
+  "name": "05express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test05",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "dong",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
